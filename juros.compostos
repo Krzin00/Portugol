@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    inteiro reais,meses,jurossimpples
+    inteiro reais,meses,juroscomposto
     real juros
     escreva("Qual valor do emprestimo? R$")
     leia(reais)
@@ -9,8 +9,8 @@ programa {
     escreva("Qual a taxa de juros? %")
     leia(juros)
     juros=juros/100
-    jurossimpples=reais+reais*meses*juros
+    juroscomposto=reais+reais*meses*juros
     
-    escreva("Você pagara R$",jurossimpples,". Nesse emprestimo.")
+    escreva("Você pagara R$",juroscompostos,". Nesse emprestimo.")
   }
 }
