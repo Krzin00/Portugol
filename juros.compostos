@@ -11,6 +11,6 @@ programa {
     juros=juros/100
     juroscomposto=reais+reais*meses*juros
     
-    escreva("Você pagara R$",juroscompostos,". Nesse emprestimo.")
+    escreva("Você pagara R$",juroscomposto,". Nesse emprestimo.")
   }
 }
